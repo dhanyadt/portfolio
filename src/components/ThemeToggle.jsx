@@ -8,7 +8,7 @@ export default function ThemeToggle() {
     if (savedTheme) {
       return savedTheme === 'dark';
     }
-    return false;
+    return true;
   });
 
   useEffect(() => {

@@ -41,9 +41,7 @@ export default function Hero() {
             <h1 className="font-serif italic font-bold text-4xl md:text-5xl text-theme-accentDark">
               Dhanya D T
             </h1>
-            <p className="font-serif font-bold text-3xl md:text-5xl lg:text-6xl text-theme-textPrimary leading-[1.08] tracking-tight">
-              I build software, break things, and figure out how to fix them.
-            </p>
+            
             <p className="font-sans text-sm md:text-base text-theme-textBlush leading-relaxed max-w-xl pt-2">
               {personalInfo.description}
             </p>
